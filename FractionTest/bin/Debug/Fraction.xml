@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fraction</name>
+    </assembly>
+    <members>
+        <member name="T:Fraction.Fraction">
+            <summary>
+            分数を管理するクラス
+            </summary>
+        </member>
+        <member name="M:Fraction.Fraction.#ctor">
+            <summary>
+            分数を管理するクラス
+            </summary>
+        </member>
+        <member name="M:Fraction.Fraction.#ctor(System.Int32,System.Int32)">
+            <summary>
+            分数を管理するクラス
+            </summary>
+            <param name="numerator">分子</param>
+            <param name="denominator">分母</param>
+        </member>
+        <member name="M:Fraction.Fraction.#ctor(System.Double)">
+            <summary>
+            小数を含む数値を分数に変換するクラス
+            </summary>
+            <param name="x"></param>
+        </member>
+        <member name="M:Fraction.Fraction.#ctor(System.Int32)">
+            <summary>
+            整数を分数の形にするクラス
+            </summary>
+            <param name="x"></param>
+        </member>
+        <member name="M:Fraction.Fraction.ToString">
+            <summary>
+            文字列に変換
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.CreateIrreducibleFration">
+            <summary>
+            既約分数に直すメソッド
+            </summary>
+        </member>
+        <member name="M:Fraction.Fraction.minus">
+            <summary>
+            マイナスの位置を調整するメソッド
+            </summary>
+        </member>
+        <member name="M:Fraction.Fraction.ABS(Fraction.Fraction)">
+            <summary>
+            分数の絶対値を返す
+            </summary>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.op_Addition(Fraction.Fraction,Fraction.Fraction)">
+            <summary>
+            加算
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.op_Addition(Fraction.Fraction,System.Int32)">
+            <summary>
+            加算
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.op_Subtraction(Fraction.Fraction,Fraction.Fraction)">
+            <summary>
+            減算
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.op_Subtraction(Fraction.Fraction,System.Int32)">
+            <summary>
+            減算
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.op_Multiply(Fraction.Fraction,Fraction.Fraction)">
+            <summary>
+            乗算
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.op_Multiply(Fraction.Fraction,System.Int32)">
+            <summary>
+            乗算
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.op_Division(Fraction.Fraction,Fraction.Fraction)">
+            <summary>
+            除算
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.op_Division(Fraction.Fraction,System.Int32)">
+            <summary>
+            除算
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.Equals(System.Object)">
+            <summary>
+            objと自分自身が等価のときはtrueを返す
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.GetHashCode">
+            <summary>
+            Equalがtrueを返すときに同じ値を返す
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.CompareTo(System.Object)">
+            <summary>
+            自分自身がotherより小さいときはマイナスの数、大きいときはプラスの数、
+            同じときは0を返す
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.op_Equality(Fraction.Fraction,Fraction.Fraction)">
+            <summary>
+            比較演算子(==)
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.Fraction.op_Inequality(Fraction.Fraction,Fraction.Fraction)">
+            <summary>
+            比較演算子(!=)
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <!-- 正しくない形式の XML コメントがメンバー "M:Fraction.Fraction.op_LessThan(Fraction.Fraction,Fraction.Fraction)" で無視されました -->
+        <member name="M:Fraction.Fraction.op_GreaterThan(Fraction.Fraction,Fraction.Fraction)">
+            <summary>
+            比較（>）
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <!-- 正しくない形式の XML コメントがメンバー "M:Fraction.Fraction.op_LessThanOrEqual(Fraction.Fraction,Fraction.Fraction)" で無視されました -->
+        <member name="M:Fraction.Fraction.op_GreaterThanOrEqual(Fraction.Fraction,Fraction.Fraction)">
+            <summary>
+            比較（>=）
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Fraction.Fraction.Numerator">
+            <summary>
+            分子
+            </summary>
+        </member>
+        <member name="P:Fraction.Fraction.Denominator">
+            <summary>
+            分母
+            </summary>
+        </member>
+        <member name="P:Fraction.Fraction.DecimalValue">
+            <summary>
+            小数値
+            </summary>
+        </member>
+        <member name="M:Fraction.NumericOperation.GCD(System.Int32,System.Int32)">
+            <summary>
+            最大公約数
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fraction.NumericOperation.LCM(System.Int32,System.Int32)">
+            <summary>
+            最小公倍数
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

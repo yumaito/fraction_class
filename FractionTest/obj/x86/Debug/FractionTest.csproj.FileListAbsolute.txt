@@ -1,0 +1,13 @@
+C:\MyApps\class\FractionTest\FractionTest\bin\Debug\FractionTest.exe
+C:\MyApps\class\FractionTest\FractionTest\bin\Debug\FractionTest.pdb
+C:\MyApps\class\FractionTest\FractionTest\bin\Debug\Fraction.dll
+C:\MyApps\class\FractionTest\FractionTest\bin\Debug\Fraction.pdb
+C:\MyApps\class\FractionTest\FractionTest\bin\Debug\Fraction.xml
+C:\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.Form1.resources
+C:\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.Properties.Resources.resources
+C:\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.exe
+C:\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.pdb
+C:\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.csprojResolveAssemblyReference.cache
+C:\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.csproj.GenerateResource.Cache
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.exe
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.pdb
