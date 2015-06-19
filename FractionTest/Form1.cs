@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using Fraction;
+using fraction;
 
 namespace FractionTest
 {
@@ -19,9 +19,9 @@ namespace FractionTest
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Fraction.Fraction x = new Fraction.Fraction(int.Parse(textBoxXN.Text), int.Parse(textBoxXD.Text));
-            Fraction.Fraction y = new Fraction.Fraction(int.Parse(textBoxYN.Text), int.Parse(textBoxYD.Text));
-            Fraction.Fraction result = new Fraction.Fraction();
+            Fraction x = new Fraction(int.Parse(textBoxXN.Text), int.Parse(textBoxXD.Text));
+            Fraction y = new Fraction(int.Parse(textBoxYN.Text), int.Parse(textBoxYD.Text));
+            Fraction result = new Fraction();
             if (radioButtonPlus.Checked)
             {
                 result = x + y;

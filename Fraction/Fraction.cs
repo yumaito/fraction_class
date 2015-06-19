@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Fraction
+namespace fraction
 {
     /// <summary>
     /// 分数を管理するクラス
@@ -59,7 +59,7 @@ namespace Fraction
 
         #region コンストラクタ
         /// <summary>
-        /// 分数を管理するクラス
+        /// 分数を管理するクラス（0が生成される）
         /// </summary>
         public Fraction()
         {
@@ -69,7 +69,7 @@ namespace Fraction
             this.minus();
         }
         /// <summary>
-        /// 分数を管理するクラス
+        /// 分数を管理するクラス（既約分数で格納されます）
         /// </summary>
         /// <param name="numerator">分子</param>
         /// <param name="denominator">分母</param>
@@ -97,7 +97,7 @@ namespace Fraction
             this.minus();
         }
         /// <summary>
-        /// 整数を分数の形にするクラス
+        /// 整数を分数の形にするクラス（（x/1）の形になります）
         /// </summary>
         /// <param name="x"></param>
         public Fraction(int x)

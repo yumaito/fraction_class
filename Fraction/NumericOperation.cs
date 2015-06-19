@@ -3,18 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Fraction
+namespace fraction
 {
+    /// <summary>
+    /// 代数的処理をする静的クラス
+    /// </summary>
     public static class NumericOperation
     {
         /// <summary>
-        /// 最大公約数
+        /// 最大公約数を求める関数
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
         static public int GCD(int a, int b)
         {
+            //それぞれの絶対値を取得
             a = Math.Abs(a);
             b = Math.Abs(b);
             if (a < b)
@@ -23,14 +27,15 @@ namespace Fraction
             }
             while (b != 0)
             {
-                int r = a % b;
+                //bがゼロでない限り
+                int r = a % b;//aをbで割った余り
                 a = b;
                 b = r;
             }
             return a;
         }
         /// <summary>
-        /// 最小公倍数
+        /// 最小公倍数を求めう関数
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>

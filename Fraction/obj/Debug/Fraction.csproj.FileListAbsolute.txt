@@ -3,3 +3,9 @@ C:\MyApps\ParodySongGenerator\Fraction\bin\Debug\Fraction.pdb
 C:\MyApps\ParodySongGenerator\Fraction\obj\Debug\ResolveAssemblyReference.cache
 C:\MyApps\ParodySongGenerator\Fraction\obj\Debug\Fraction.dll
 C:\MyApps\ParodySongGenerator\Fraction\obj\Debug\Fraction.pdb
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\Fraction\bin\Debug\Fraction.XML
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\Fraction\bin\Debug\Fraction.dll
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\Fraction\bin\Debug\Fraction.pdb
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\Fraction\obj\Debug\Fraction.csprojResolveAssemblyReference.cache
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\Fraction\obj\Debug\Fraction.dll
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\Fraction\obj\Debug\Fraction.pdb

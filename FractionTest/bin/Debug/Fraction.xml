@@ -192,7 +192,7 @@
         </member>
         <member name="M:Fraction.NumericOperation.GCD(System.Int32,System.Int32)">
             <summary>
-            最大公約数
+            最大公約数を求める関数
             </summary>
             <param name="a"></param>
             <param name="b"></param>
@@ -200,7 +200,7 @@
         </member>
         <member name="M:Fraction.NumericOperation.LCM(System.Int32,System.Int32)">
             <summary>
-            最小公倍数
+            最小公倍数を求めう関数
             </summary>
             <param name="a"></param>
             <param name="b"></param>
