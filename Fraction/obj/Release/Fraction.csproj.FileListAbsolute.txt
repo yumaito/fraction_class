@@ -1,0 +1,5 @@
+C:\MyApps\ParodySongGenerator\Fraction\bin\Release\Fraction.dll
+C:\MyApps\ParodySongGenerator\Fraction\bin\Release\Fraction.pdb
+C:\MyApps\ParodySongGenerator\Fraction\obj\Release\ResolveAssemblyReference.cache
+C:\MyApps\ParodySongGenerator\Fraction\obj\Release\Fraction.dll
+C:\MyApps\ParodySongGenerator\Fraction\obj\Release\Fraction.pdb

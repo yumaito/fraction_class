@@ -11,3 +11,12 @@ C:\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.csprojResol
 C:\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.csproj.GenerateResource.Cache
 C:\Users\悠真\Desktop\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.exe
 C:\Users\悠真\Desktop\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.pdb
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\FractionTest\bin\Debug\FractionTest.exe
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\FractionTest\bin\Debug\FractionTest.pdb
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\FractionTest\bin\Debug\Fraction.dll
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\FractionTest\bin\Debug\Fraction.pdb
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\FractionTest\bin\Debug\Fraction.xml
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.csprojResolveAssemblyReference.cache
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.Form1.resources
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.Properties.Resources.resources
+C:\Users\悠真\Desktop\MyApps\class\FractionTest\FractionTest\obj\x86\Debug\FractionTest.csproj.GenerateResource.Cache
