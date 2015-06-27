@@ -12,11 +12,19 @@ C#で分数の計算を行うクラス
 「Fraction/bin」フォルダ内にある「fraction.dll」を使いたいプロジェクトから参照してください。visual studioでの参照の方法は[こちら](https://msdn.microsoft.com/ja-jp/library/7314433t(v=vs.90).aspx)
 
 2. usingディレクティブの追加  
-fractionクラスを使いたいコードの頭に以下のusingディレクティブを追加してください。  
-    using fraction;
+fractionクラスを使いたいコードの頭に以下のusingディレクティブを追加してください。
 
+    ```csharp
+    using fraction; //注意：小文字です
+    ```
 ### 使用例
 
 fractionクラスはコンストラクタを明示しなければいけないこと以外はint型やdouble型などと同じように使えます。  
-    fraction x = new fraction(1,3);//x=1/3    
-    fraction y = new fraction(4,3);//y=4/3
+コンストラクタは以下の4種類あります。
+
+```csharp
+Fraction(); //引数なし（0として扱われます）
+Fraction(int numerator,int denominator); //分子（numerator）と分母（denominator）を指定。最も一般的な使い方
+Fraction(double x); //小数を分数として扱う（例:0.25を入力すると1/4として扱われます）
+Fraction(int x); //整数を分数として扱う（x/1という形の分数として扱われます）
+```
