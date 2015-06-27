@@ -20,36 +20,38 @@ fractionクラスを使いたいコードの頭に以下のusingディレクテ�
     ```csharp
     using fraction; //注意：小文字です
     ```
-### 使用例
 
-fractionクラスはコンストラクタを明示しなければいけないこと以外はint型やdouble型などと同じように使えます。  
-コンストラクタは以下の4種類あります。
+### 仕様
 
-```csharp
-Fraction(); //引数なし（0として扱われます）
-Fraction(int numerator,int denominator); //分子（numerator）と分母（denominator）を指定。最も一般的な使い方
-Fraction(double x); //小数を分数として扱う（例:0.25を入力すると1/4として扱われます）
-Fraction(int x); //整数を分数として扱う（x/1という形の分数として扱われます）
-```
+fractionクラスはコンストラクタを明示しなければいけないこと以外はint型やdouble型などと同じように使えます。
 
-公開プロパティ（クラス外部からアクセスできる変数）は以下の2つです。  
+1. コンストラクタ
 
-```csharp
-public int Numerator; //分子の値
-public int Denominator; //分母の値
-public double DecimalValue; //小数値（1/2なら0.5が返される）
-```
+    ```csharp
+    Fraction(); //引数なし（0として扱われます）
+    Fraction(int numerator,int denominator); //分子（numerator）と分母（denominator）を指定。最も一般的な使い方
+    Fraction(double x); //小数を分数として扱う（例:0.25を入力すると1/4として扱われます）
+    Fraction(int x); //整数を分数として扱う（x/1という形の分数として扱われます）
+    ```
+
+2. 公開プロパティ
+
+    ```csharp
+    public int Numerator; //分子の値
+    public int Denominator; //分母の値
+    public double DecimalValue; //小数値（1/2なら0.5が返される）
+    ```
 また、負数の場合は分子に負号がつきます（分母は常に正数となります）。
 
-公開メソッド。現在のところ静的メソッドのみ用意しています
-```csharp
-public static Fraction ABS(Fraction x); //分数の絶対値を返す静的メソッド
-public static int GCD(int a,int b); //aとbの最大公約数を求めるメソッド
-public static int LCM(int a,int b); //aとbの最小公倍数を求めるメソッド
-```
+3. 公開メソッド。現在のところ静的メソッドのみ用意しています
+    ```csharp
+    public static Fraction ABS(Fraction x); //分数の絶対値を返す静的メソッド
+    public static int GCD(int a,int b); //aとbの最大公約数を求めるメソッド
+    public static int LCM(int a,int b); //aとbの最小公倍数を求めるメソッド
+    ```
 
 
-#### 演算
+### 演算
 本クラスでは以下のような計算ができます。  
 
 1. 分数同士の四則演算および分数と整数の四則演算  
