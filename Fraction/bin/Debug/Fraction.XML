@@ -11,12 +11,12 @@
         </member>
         <member name="M:fraction.Fraction.#ctor">
             <summary>
-            分数を管理するクラス
+            分数を管理するクラス（0が生成される）
             </summary>
         </member>
         <member name="M:fraction.Fraction.#ctor(System.Int32,System.Int32)">
             <summary>
-            分数を管理するクラス
+            分数を管理するクラス（既約分数で格納されます）
             </summary>
             <param name="numerator">分子</param>
             <param name="denominator">分母</param>
@@ -29,7 +29,7 @@
         </member>
         <member name="M:fraction.Fraction.#ctor(System.Int32)">
             <summary>
-            整数を分数の形にするクラス
+            整数を分数の形にするクラス（（x/1）の形になります）
             </summary>
             <param name="x"></param>
         </member>
@@ -188,6 +188,11 @@
         <member name="P:fraction.Fraction.DecimalValue">
             <summary>
             小数値
+            </summary>
+        </member>
+        <member name="T:fraction.NumericOperation">
+            <summary>
+            代数的処理をする静的クラス
             </summary>
         </member>
         <member name="M:fraction.NumericOperation.GCD(System.Int32,System.Int32)">

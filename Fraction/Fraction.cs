@@ -75,6 +75,11 @@ namespace fraction
         /// <param name="denominator">分母</param>
         public Fraction(int numerator, int denominator)
         {
+            if(denominator == 0)
+            {
+                //分母が0なら例外を吐く
+                throw new ArgumentException("分母に0が指定されました");
+            }
             this.numerator = numerator;
             this.denominator = denominator;
             this.CreateIrreducibleFration();
@@ -239,6 +244,11 @@ namespace fraction
         /// <returns></returns>
         public static Fraction operator /(Fraction x, Fraction y)
         {
+            if (y.numerator == 0)
+            {
+                //分母が0なら例外を吐く
+                throw new ArgumentException("割る数に0が指定されました");
+            }
             return new Fraction(x.numerator * y.denominator, x.denominator * y.numerator);
         }
         /// <summary>
@@ -249,6 +259,11 @@ namespace fraction
         /// <returns></returns>
         public static Fraction operator /(Fraction x, int y)
         {
+            if(y == 0)
+            {
+                //分母が0なら例外を吐く
+                throw new ArgumentException("分母に0が指定されました");
+            }
             return new Fraction(x.numerator, x.denominator * y);
         }
         #endregion
