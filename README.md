@@ -12,7 +12,7 @@ C#で分数の計算を行うクラス
 
 ### 導入
 1. dllの参照  
-「Fraction/bin」フォルダ内にある「fraction.dll」を使いたいプロジェクトから参照してください。visual studioでの参照の方法は[こちら](https://msdn.microsoft.com/ja-jp/library/7314433t(v=vs.90).aspx)
+releaseから「Fraction.dll」をダウンロードし、使いたいプロジェクトから参照してください。visual studioでの参照の方法は[こちら](https://msdn.microsoft.com/ja-jp/library/7314433t(v=vs.90).aspx)
 
 2. usingディレクティブの追加  
 fractionクラスを使いたいコードの頭に以下のusingディレクティブを追加してください。
